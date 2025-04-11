@@ -151,6 +151,7 @@ public with sharing class DummyJSONCalloutTest {
 		Test.stopTest();
 
 		// After the stopTest, the future method will have run. Now we can check if the contact was created correctly.
+		//System.debug(contacts);
 		contacts = [
 			SELECT
 				DummyJSON_Id__c,
